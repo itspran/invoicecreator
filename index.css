@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Source+Sans+Pro:wght@600&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0%;
+  background-color: #1f2937;
+  overflow: hidden;
+}
+
+.bluetop {
+  position: absolute;
+  width: 2050px;
+  height: 190px;
+  left: -700px;
+  top: 0px;
+
+  background: #3a69d2;
+}
+
+.head {
+  position: absolute;
+  width: 354px;
+  height: 40px;
+  left: 87px;
+  top: 59px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+
+.support {
+  position: absolute;
+  width: 408px;
+  height: 31px;
+  left: 59px;
+  top: 115px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 28px;
+  /* or 175% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.back {
+  position: absolute;
+  width: 550px;
+  height: 719px;
+  left: 0px;
+  top: 0px;
+
+  background: #1f2937;
+}
+
+.carbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px;
+
+  position: absolute;
+  width: 143.17px;
+  height: 35px;
+
+  border-radius: 7px;
+}
+
+.car {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px;
+
+  position: absolute;
+  width: 143.17px;
+  height: 45px;
+  left: 15px;
+  top: 231px;
+
+  background: #d1d4f4;
+  border-radius: 7px;
+  border-style: solid;
+  outline: none;
+  border: none;
+  color: #4a4e74;
+  font-weight: bolder;
+  font-size: 13px;
+}
+
+.lawnbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px;
+
+  position: absolute;
+  width: 143.17px;
+  height: 35px;
+
+  border-radius: 7px;
+}
+
+.lawn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px;
+
+  position: absolute;
+  width: 143.17px;
+  height: 45px;
+  left: 190px;
+  top: 231px;
+
+  background: #d1d4f4;
+  border-radius: 7px;
+  border-style: solid;
+  outline: none;
+  border: none;
+  color: #4a4e74;
+  font-weight: bolder;
+  font-size: 13px;
+}
+
+.weedbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px;
+
+  position: absolute;
+  width: 143.17px;
+  height: 35px;
+
+  border-radius: 7px;
+}
+
+.weed {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px;
+
+  position: absolute;
+  width: 143.17px;
+  height: 45px;
+  left: 365px;
+  top: 231px;
+
+  background: #d1d4f4;
+  border-radius: 7px;
+  border-style: solid;
+  outline: none;
+  border: none;
+  color: #4a4e74;
+  font-weight: bolder;
+  font-size: 13px;
+}
+
+.car:hover {
+  cursor: pointer;
+}
+.lawn:hover {
+  cursor: pointer;
+}
+.weed:hover {
+  cursor: pointer;
+}
+
+.taskp {
+  position: absolute;
+  width: 95px;
+  height: 22px;
+  left: 39px;
+  top: 319px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  /* or 167% */
+
+  color: #d5d4d8;
+}
+
+.totalp {
+  position: absolute;
+  width: 78px;
+  height: 22px;
+  left: 412px;
+  top: 323px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  /* or 167% */
+
+  text-align: right;
+
+  color: #d5d4d8;
+}
+
+#list {
+  position: absolute;
+  width: 428px;
+  height: 22px;
+  left: 39px;
+  top: 343px;
+
+  font-family: "Inter";
+  font-style: normal;
+  padding-left: 0;
+  text-align: left;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  list-style: none;
+  /* or 167% */
+
+  text-align: right;
+
+  color: #d5d4d8;
+}
+
+#list li {
+  width: 500px;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.removebtn {
+  background-color: transparent;
+  border-style: none;
+  color: #a3a3a3;
+  font-size: 10px;
+}
+
+.removebtn:hover {
+  cursor: pointer;
+}
+
+#amtlist {
+  position: absolute;
+  width: 428px;
+  height: 22px;
+  left: 452px;
+  top: 343px;
+  font-family: "Inter";
+  font-style: normal;
+  padding-left: 0;
+  text-align: left;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  list-style: none;
+  /* or 167% */
+
+  text-align: right;
+
+  color: #d5d4d8;
+}
+
+#amtlist li {
+  width: 500px;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.sign {
+  color: #5c5e6e;
+  font-weight: 20;
+}
+
+.amount {
+  font-weight: 20;
+}
+
+.linebreak {
+  position: relative;
+  width: 455px;
+  height: 1px;
+  left: px;
+  top: 0px;
+  background-color: #80818d;
+}
+
+.notes {
+  color: #80818d;
+  font-size: 12px;
+  font-weight: lighter;
+
+  margin-bottom: -25px;
+  margin-top: 0px;
+}
+#linotes {
+  margin: 0px;
+  margin-top: 4px !important;
+  margin-bottom: 0px !important;
+}
+
+#notedesc {
+  color: rgb(207, 207, 207);
+  font-weight: lighter;
+}
+
+.totaltag {
+  font-weight: lighter;
+  font-size: 15px;
+  padding-left: 290px;
+  padding-bottom: 20px;
+}
+
+#totalamount {
+  position: relative;
+  top: 15px;
+  padding-left: 170px;
+  padding-top: 100px;
+  font-size: 35px;
+}
+
+.invoice {
+  position: relative;
+  top: 20px;
+  background-color: #3a69d2;
+  border-style: none;
+  color: white;
+  border-radius: 7px;
+  width: 473px;
+  font-weight: bold;
+  font-size: 15px;
+  height: 44px;
+}
+
+.invoice:hover {
+  cursor: pointer;
+}
+#invtext {
+  padding-left: 10px;
+}
+
+.main {
+  position: absolute;
+  left: 35%;
+}
