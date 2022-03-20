@@ -48,6 +48,13 @@ function remove(x) {
   render(tasks);
 }
 
+invoice = document.getElementById("inv");
+
+invoice.addEventListener("click", function () {
+  tasks = [];
+  render(tasks);
+});
+
 function render(arr) {
   if (arr.length > 10) return;
   let fin = "";
